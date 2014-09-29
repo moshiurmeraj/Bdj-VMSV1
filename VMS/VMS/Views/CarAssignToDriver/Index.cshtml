@@ -1,0 +1,51 @@
+﻿@model IEnumerable<VMS.Models.CarAssignToDriver>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Cars.CarName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Drivers.DriverName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FromCarAssignDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ToCarAssignDate)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cars.CarName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Drivers.DriverName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FromCarAssignDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ToCarAssignDate)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.CarAssignToDriverId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.CarAssignToDriverId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.CarAssignToDriverId })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,39 @@
+﻿@model IEnumerable<VMS.Models.AllRequestsFromUser>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.UserRequest.Purpose)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RequestStatusName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserRequest.Purpose)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RequestStatusName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.AllRequestsFromUserId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.AllRequestsFromUserId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.AllRequestsFromUserId })
+        </td>
+    </tr>
+}
+
+</table>

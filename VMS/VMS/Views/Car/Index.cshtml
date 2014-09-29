@@ -1,0 +1,69 @@
+﻿@model IEnumerable<VMS.Models.Car>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TypeOfCar)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CarStatus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CarName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CarNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PurchasingDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ChassisNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SeatCapacity)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TypeOfCar)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CarStatus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CarName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CarNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PurchasingDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ChassisNo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SeatCapacity)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.CarId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.CarId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.CarId })
+        </td>
+    </tr>
+}
+
+</table>
