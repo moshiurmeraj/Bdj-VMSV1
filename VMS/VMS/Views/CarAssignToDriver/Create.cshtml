@@ -37,6 +37,7 @@
             <div class="col-md-10">
                 @Html.EditorFor(model => model.FromCarAssignDate)
                 @Html.ValidationMessageFor(model => model.FromCarAssignDate)
+                @*@Html.EJ().DateTimePicker("DateTime").MinDateTime("05/23/2014 09:00AM").MaxDateTime("05/29/2014 09:00 PM").Interval(30)*@
             </div>
         </div>
 
