@@ -25,7 +25,8 @@ namespace VMS
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                       "~/Content/jquery.datetimepicker.css"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryui").Include(
                         "~/Scripts/jquery-ui-{version}.js",
@@ -34,9 +35,34 @@ namespace VMS
         "~/Content/themes/base/jquery.ui.core.css",
         "~/Content/themes/base/jquery.ui.datepicker.css",
         "~/Content/themes/base/jquery.ui.theme.css",
+<<<<<<< HEAD
          "~/Content/themes/base/all.css",
           "~/Content/site.css"
         )); 
+=======
+         "~/Content/themes/base/all.css"
+        ));
+            bundles.Add(new ScriptBundle("~/bundles/jquery-datetimepicker").Include(
+                       "~/Scripts/jquery.datetimepicker.js",
+                       "~/Scripts/jquery.js"));
+
+            //bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
+            //           "~/Scripts/modernizr-*"));
+
+            //bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
+            //          "~/Scripts/bootstrap.js",
+            //           "~/Scripts/bootstrap-datetimepicker.min.js",
+            //          "~/Scripts/respond.js"));
+
+
+            bundles.Add(new StyleBundle("~/Content/css").Include(
+                "~/Content/bootstrap.css",
+                "~/Content/justified-nav.css",
+                "~/Content/bootstrap.min.css",
+                "~/Content/jquery.datetimepicker.css",
+                "~/Content/site.css"));
+
+>>>>>>> b2bf09c8a783632b67fac66cc466fa2e9eea3c5e
 
         }
     }
