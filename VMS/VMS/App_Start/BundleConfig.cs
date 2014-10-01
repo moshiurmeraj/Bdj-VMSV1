@@ -34,7 +34,8 @@ namespace VMS
         "~/Content/themes/base/jquery.ui.core.css",
         "~/Content/themes/base/jquery.ui.datepicker.css",
         "~/Content/themes/base/jquery.ui.theme.css",
-         "~/Content/themes/base/all.css"
+         "~/Content/themes/base/all.css",
+          "~/Content/site.css"
         )); 
 
         }

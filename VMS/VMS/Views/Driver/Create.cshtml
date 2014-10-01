@@ -60,7 +60,9 @@
         <div class="form-group">
             @Html.LabelFor(model => model.JoiningDate, new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.JQueryUI().DatepickerFor(model => model.JoiningDate)
+              
+                @Html.EditorFor(model=>model.JoiningDate)
+            
                 @Html.ValidationMessageFor(model => model.JoiningDate)
             </div>
         </div>
@@ -89,7 +91,7 @@
     @Scripts.Render("~/bundles/jqueryval")
     @Scripts.Render("~/bundles/jquery-datetimepicker")
 <script>
-    $('#JoiningDate').datetimepicker({ format: 'd/m/Y h:i a' });
+    $('#JoiningDate')({ format: 'd/m/Y h:i a' });
 
 </script>
 
