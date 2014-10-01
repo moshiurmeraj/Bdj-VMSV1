@@ -30,11 +30,10 @@ namespace VMS.Models
         [DataType(DataType.MultilineText)]
         public string Address { set; get; }
 
-
-        [DataType(DataType.MultilineText)]
+        [Required]
         public double Experience { set; get; }
 
-        [DataType(DataType.DateTime)]
+        [DataType(DataType.Date)]
         [Display(Name = "Joining Date")]
         public DateTime JoiningDate { set; get; }
 

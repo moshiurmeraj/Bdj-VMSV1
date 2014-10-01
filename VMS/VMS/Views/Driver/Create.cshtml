@@ -1,4 +1,5 @@
-﻿@model VMS.Models.Driver
+﻿@using Microsoft.SqlServer.Server
+@model VMS.Models.Driver
 
 @{
     ViewBag.Title = "Create";
@@ -59,7 +60,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.JoiningDate, new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.JoiningDate)
+                @Html.JQueryUI().DatepickerFor(model => model.JoiningDate)
                 @Html.ValidationMessageFor(model => model.JoiningDate)
             </div>
         </div>
@@ -86,4 +87,16 @@
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/jquery-datetimepicker")
+<script>
+   
+    $('#JoiningDate').datetimepicker({ format: 'd/m/Y h:i a' });
+
+</script>
+
+
+
 }
+  
+
+

@@ -54,11 +54,19 @@ namespace VMS.Controllers
             {
                 db.UserRequests.Add(userrequest);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("user_message");
+               
+       
+
             }
 
             ViewBag.DesignationId = new SelectList(db.Designations, "DesignationId", "DesignationName", userrequest.DesignationId);
             return View(userrequest);
+        }
+
+        public ActionResult user_message()
+        {
+            return View();
         }
 
         // GET: /UserRequest/Edit/5

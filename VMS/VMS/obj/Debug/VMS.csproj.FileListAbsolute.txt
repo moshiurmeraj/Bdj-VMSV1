@@ -1,58 +1,3 @@
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\VMS.dll.config
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\VMS.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\VMS.pdb
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Antlr3.Runtime.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\EntityFramework.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\EntityFramework.SqlServer.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Microsoft.AspNet.Identity.Core.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Microsoft.AspNet.Identity.Owin.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Microsoft.Owin.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Microsoft.Owin.Host.SystemWeb.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Microsoft.Owin.Security.Cookies.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Microsoft.Owin.Security.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Microsoft.Owin.Security.Facebook.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Microsoft.Owin.Security.Google.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Microsoft.Owin.Security.OAuth.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Microsoft.Owin.Security.Twitter.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Microsoft.Web.Infrastructure.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Newtonsoft.Json.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Owin.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\System.Web.Helpers.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\System.Web.Mvc.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\System.Web.Optimization.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\System.Web.Razor.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\System.Web.WebPages.Deployment.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\System.Web.WebPages.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\System.Web.WebPages.Razor.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\WebGrease.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\System.Web.Helpers.xml
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\System.Web.Mvc.xml
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\System.Web.Optimization.xml
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\System.Web.Razor.xml
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\System.Web.WebPages.xml
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\System.Web.WebPages.Deployment.xml
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\System.Web.WebPages.Razor.xml
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Newtonsoft.Json.xml
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Antlr3.Runtime.pdb
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\EntityFramework.xml
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\EntityFramework.SqlServer.xml
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Microsoft.AspNet.Identity.Core.xml
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Microsoft.AspNet.Identity.Owin.xml
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Microsoft.Owin.xml
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Microsoft.Owin.Host.SystemWeb.xml
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Microsoft.Owin.Security.xml
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Microsoft.Owin.Security.Facebook.xml
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Microsoft.Owin.Security.Cookies.xml
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Microsoft.Owin.Security.OAuth.xml
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Microsoft.Owin.Security.Google.xml
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Microsoft.Owin.Security.Twitter.xml
-E:\VMS V1\Bdj-VMS1\VMS\VMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-E:\VMS V1\Bdj-VMS1\VMS\VMS\obj\Debug\VMS.csprojResolveAssemblyReference.cache
-E:\VMS V1\Bdj-VMS1\VMS\VMS\obj\Debug\VMS.dll
-E:\VMS V1\Bdj-VMS1\VMS\VMS\obj\Debug\VMS.pdb
 E:\Bdj-VMSV1\Bdj-VMSV1\VMS\VMS\bin\VMS.dll.config
 E:\Bdj-VMSV1\Bdj-VMSV1\VMS\VMS\bin\VMS.dll
 E:\Bdj-VMSV1\Bdj-VMSV1\VMS\VMS\bin\VMS.pdb
@@ -105,8 +50,8 @@ E:\Bdj-VMSV1\Bdj-VMSV1\VMS\VMS\bin\Microsoft.Owin.Security.OAuth.xml
 E:\Bdj-VMSV1\Bdj-VMSV1\VMS\VMS\bin\Microsoft.Owin.Security.Google.xml
 E:\Bdj-VMSV1\Bdj-VMSV1\VMS\VMS\bin\Microsoft.Owin.Security.Twitter.xml
 E:\Bdj-VMSV1\Bdj-VMSV1\VMS\VMS\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-E:\Bdj-VMSV1\Bdj-VMSV1\VMS\VMS\obj\Debug\VMS.csprojResolveAssemblyReference.cache
-E:\Bdj-VMSV1\Bdj-VMSV1\VMS\VMS\obj\Debug\VMS.dll
-E:\Bdj-VMSV1\Bdj-VMSV1\VMS\VMS\obj\Debug\VMS.pdb
 E:\Bdj-VMSV1\Bdj-VMSV1\VMS\VMS\obj\Debug\VMS.Migrations.vmscontext.resources
 E:\Bdj-VMSV1\Bdj-VMSV1\VMS\VMS\obj\Debug\VMS.csproj.GenerateResource.Cache
+E:\Bdj-VMSV1\Bdj-VMSV1\VMS\VMS\obj\Debug\VMS.dll
+E:\Bdj-VMSV1\Bdj-VMSV1\VMS\VMS\obj\Debug\VMS.pdb
+E:\Bdj-VMSV1\Bdj-VMSV1\VMS\VMS\obj\Debug\VMS.csprojResolveAssemblyReference.cache
